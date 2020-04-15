@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- form for getting info-->
+<html>
+    <head>
+        <title id="form">
+        form
+        </title>
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="mailto:sammalik734sam@gamil.com" metho="post">
+        <h1 class="header">Enter the require information</h1><br>
+        <label for="name">enter your</label>
+         <input type="text" id="name" name="p-name">
+         <br>
+         <label >Gender</label><br>
+         <label for="male" >Male</label> 
+         <input type="checkbox" id="male" value="male" name="person">
+         <br>
+         <label for="female">female</label>
+         <input type="checkbox" value="female" id="female" name="person">
+         <br>
+         <label for="age">set your age</label><br>
+         <input type="range" id="age"  min="0" max="45" step="3">
+         <br>
+         <label >status</label><br>
+         <label for="single">single</label>
+         <input type="radio" id="single" value="single" name="status" >
+         <br>
+         <label for="married">married</label>
+         <input type="radio" id="married" value="married" name="status" >
+         <br>
+         <label for="cities">Enter your cities</label>
+         <select name="cities" id="cities">
+             <option value="lahore">Lahore</option>
+             <option value="multan">Multan</option>
+             <option value="kashmir">Kashmir</option>
+         </select>
+         <br>
+         <label for="location">location</label>
+         <input type="text" for="location" list="location-list" name="location-list">
+         <datalist id="location-list">
+             <option value="bhati"></option>
+             <option value="bhawalpur"></option>
+             <option value="abbotabad"></option>
+         </datalist>
+         <input type="submit" value="send">
+        </form>
+    </body>
+</html>

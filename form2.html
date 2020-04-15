@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>brand feedback</title>
+        <meta charset="utf-8">
+        <meta name="author" description="usama">
+        <meta name="about" description="this is form about multiple question for a brand related to this">
+    </head>
+    <body>
+        <h1>Give us your feedback</h1>
+        <form action="mailto:sammalik7345sam@gmail.com" method="post">
+            <label for="name" >Enter your name</label>
+            <input type="text" id="name" name="name">
+            <label for="lastname">Lastname</label>
+            <input type="text" id="lastname" name="lastname">
+            <p>Enter your gender</p>
+            <span>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+          <label for="female">Female</label></span> 
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="10" step="1">
+            <br>
+            <label for="city">Enter your city</label>
+            <input type="text" list="cities" id="city" name="city-list">
+            <datalist id="cities" >
+                <option value="Lahore"></option>
+                <option value="Islamabad"></option>
+                <option value='Karachi'></option>
+            </datalist>
+            <br>
+            <label for="ingridients">Enter your ingridients</label>
+            <select name="ingridients" id="ingridients">
+                <option value="peroni">Perperoni</option>
+                <option value="cheese">Cheese</option>
+                <option value="ketchup">Ketchup</option>
+            </select>
+        </form>
+
+    </body>
+
+</html> 
